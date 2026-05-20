@@ -116,6 +116,37 @@ em {
   font-size: 16.5px;
 }
 
+/* Footer */
+footer {
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 24px 20px;
+  margin-top: 60px;
+  color: #888;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0 0 8px 0;
+  color: #888;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-links a {
+  color: #888;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-links a:hover {
+  color: #111;
+}
+
 @media (max-width: 680px) {
   .intro {
     flex-direction: column-reverse;
